@@ -17,4 +17,12 @@ Add Classes to Elements:
 Ensure that your slides have the class form-slide.
 Ensure that the container of the slides has the class outsource-form-slider.
 Insert the Script:
-Place the following script in an HTML embed element or in the custom code section of your Webflow project (usually in the <body> or <head> section, depending on when you want it to run):
+Place the following script in an HTML embed element or in the custom code section of your Webflow project (usually in the <body> or <head> section, depending on when you want it to run)
+
+Result:
+Before Adding the Script:
+
+The slide container may not resize dynamically, leading to potential overflow or empty space issues if the slides have varying heights.
+After Adding the Script:
+
+The slide container will dynamically resize to fit the height of the currently visible slide, ensuring a consistent and visually appealing layout.
